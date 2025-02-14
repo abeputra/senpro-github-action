@@ -46,7 +46,7 @@ jobs:
           if [ ! -d "$HOME/senpro/499337/modul02/senpro-github-action" ]; then
             echo "Repository belum di-clone. Cloning..."
             mkdir -p ~/senpro/499337/modul02
-            cd ~/senpro/499337/modul02
+            cd ~/senpro/40000/modul02
             git clone git@github.com:abeputra/senpro-github-action.git
           else
             echo "Repository sudah ada. Building..."
